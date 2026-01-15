@@ -1,0 +1,535 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description"
+        content="Mildred Clemente Rios - Desarrolladora Web Full Stack especializada en HTML, CSS, JavaScript, React y WordPress. Contáctame para tu próximo proyecto web.">
+    <meta name="keywords" content="desarrollador web, full stack, freelancer, diseño web, React, WordPress, JavaScript">
+    <meta name="author" content="Mildred Clemente Rios">
+
+    <title>Mildred Clemente Rios | Desarrolladora Web Full Stack</title>
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap"
+        rel="stylesheet">
+
+    <!-- Phosphor Icons -->
+    <script src="https://unpkg.com/@phosphor-icons/web"></script>
+
+    <!-- Styles -->
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body>
+    <!-- Navigation -->
+    <nav class="navbar" id="navbar">
+        <div class="nav-container">
+            <a href="#hero" class="nav-logo">
+                <span class="logo-text">Mildred Rios</span>
+            </a>
+
+            <ul class="nav-menu" id="nav-menu">
+                <li class="nav-item">
+                    <a href="#about" class="nav-link" data-es="Sobre Mí" data-en="About Me">Sobre Mí</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#skills" class="nav-link" data-es="Habilidades" data-en="Skills">Habilidades</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#projects" class="nav-link" data-es="Proyectos" data-en="Projects">Proyectos</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#contact" class="nav-link" data-es="Contacto" data-en="Contact">Contacto</a>
+                </li>
+            </ul>
+
+            <!-- Language Toggle -->
+            <div class="lang-toggle">
+                <button class="lang-btn active" id="lang-es">ES</button>
+                <span class="lang-divider">/</span>
+                <button class="lang-btn" id="lang-en">EN</button>
+            </div>
+
+            <!-- Mobile Menu Toggle -->
+            <button class="nav-toggle" id="nav-toggle" aria-label="Toggle navigation">
+                <i class="ph ph-list"></i>
+            </button>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero" id="hero">
+        <div class="hero-bg">
+            <div class="hero-gradient"></div>
+            <div class="hero-grid"></div>
+        </div>
+        <div class="hero-content">
+            <div class="hero-badge" data-es="👋 ¡Hola! Bienvenido a mi portafolio"
+                data-en="👋 Hi! Welcome to my portfolio">
+                👋 ¡Hola! Bienvenido a mi portafolio
+            </div>
+            <h1 class="hero-title">
+                <span data-es="Soy" data-en="I'm">Soy</span> <span class="highlight">Mildred</span>
+            </h1>
+            <h2 class="hero-subtitle" data-es="Desarrolladora Web Full Stack" data-en="Full Stack Web Developer">
+                Desarrolladora Web Full Stack
+            </h2>
+            <p class="hero-description"
+                data-es="Transformo ideas en experiencias digitales excepcionales. Especializada en crear sitios web modernos, responsivos y optimizados que impulsan tu presencia en línea."
+                data-en="I transform ideas into exceptional digital experiences. Specialized in creating modern, responsive, and optimized websites that boost your online presence.">
+                Transformo ideas en experiencias digitales excepcionales. Especializada en crear sitios web modernos,
+                responsivos y optimizados que impulsan tu presencia en línea.
+            </p>
+            <div class="hero-cta">
+                <a href="#contact" class="btn btn-primary" data-es="Contáctame" data-en="Contact Me">
+                    <i class="ph ph-envelope"></i>
+                    Contáctame
+                </a>
+                <a href="#projects" class="btn btn-secondary" data-es="Ver Proyectos" data-en="View Projects">
+                    <i class="ph ph-folder-open"></i>
+                    Ver Proyectos
+                </a>
+            </div>
+            <div class="hero-stats">
+                <div class="stat">
+                    <span class="stat-number">5+</span>
+                    <span class="stat-label" data-es="Años de Experiencia" data-en="Years Experience">Años de
+                        Experiencia</span>
+                </div>
+                <div class="stat">
+                    <span class="stat-number">20+</span>
+                    <span class="stat-label" data-es="Proyectos Completados" data-en="Completed Projects">Proyectos
+                        Completados</span>
+                </div>
+                <div class="stat">
+                    <span class="stat-number">100%</span>
+                    <span class="stat-label" data-es="Clientes Satisfechos" data-en="Satisfied Clients">Clientes
+                        Satisfechos</span>
+                </div>
+            </div>
+        </div>
+        <div class="scroll-indicator">
+            <i class="ph ph-caret-down"></i>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="section about" id="about">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag" data-es="Conóceme" data-en="Get to know me">Conóceme</span>
+                <h2 class="section-title" data-es="Sobre Mí" data-en="About Me">Sobre Mí</h2>
+            </div>
+            <div class="about-content">
+                <div class="about-image">
+                    <div class="about-image-wrapper">
+                        <img src="assets/images/profile.jpg" alt="Mildred Clemente Rios - Desarrolladora Web Full Stack"
+                            class="about-profile-img">
+                        <div class="about-image-decoration"></div>
+                    </div>
+                </div>
+                <div class="about-text">
+                    <p class="about-intro"
+                        data-es="¡Hola! Soy Mildred Clemente Rios, una apasionada desarrolladora web full stack con experiencia en crear soluciones digitales innovadoras."
+                        data-en="Hello! I'm Mildred Clemente Rios, a passionate full stack web developer with experience in creating innovative digital solutions.">
+                        ¡Hola! Soy Mildred Clemente Rios, una apasionada desarrolladora web full stack con experiencia
+                        en crear soluciones digitales innovadoras.
+                    </p>
+                    <p data-es="Me especializo en desarrollar sitios web y aplicaciones que no solo se ven increíbles, sino que también ofrecen una experiencia de usuario excepcional. Mi enfoque combina creatividad con funcionalidad para entregar productos que superan expectativas."
+                        data-en="I specialize in developing websites and applications that not only look amazing but also offer an exceptional user experience. My approach combines creativity with functionality to deliver products that exceed expectations.">
+                        Me especializo en desarrollar sitios web y aplicaciones que no solo se ven increíbles, sino que
+                        también ofrecen una experiencia de usuario excepcional. Mi enfoque combina creatividad con
+                        funcionalidad para entregar productos que superan expectativas.
+                    </p>
+                    <p data-es="Trabajo con las últimas tecnologías y mejores prácticas para asegurar que cada proyecto sea moderno, seguro y escalable."
+                        data-en="I work with the latest technologies and best practices to ensure every project is modern, secure, and scalable.">
+                        Trabajo con las últimas tecnologías y mejores prácticas para asegurar que cada proyecto sea
+                        moderno, seguro y escalable.
+                    </p>
+                    <div class="about-highlights">
+                        <div class="highlight-item">
+                            <i class="ph ph-check-circle"></i>
+                            <span data-es="Código limpio y mantenible" data-en="Clean and maintainable code">Código
+                                limpio y mantenible</span>
+                        </div>
+                        <div class="highlight-item">
+                            <i class="ph ph-check-circle"></i>
+                            <span data-es="Diseño responsivo" data-en="Responsive design">Diseño responsivo</span>
+                        </div>
+                        <div class="highlight-item">
+                            <i class="ph ph-check-circle"></i>
+                            <span data-es="Optimización SEO" data-en="SEO optimization">Optimización SEO</span>
+                        </div>
+                        <div class="highlight-item">
+                            <i class="ph ph-check-circle"></i>
+                            <span data-es="Comunicación constante" data-en="Constant communication">Comunicación
+                                constante</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section class="section skills" id="skills">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag" data-es="Mi Stack Tecnológico" data-en="My Tech Stack">Mi Stack
+                    Tecnológico</span>
+                <h2 class="section-title" data-es="Habilidades" data-en="Skills">Habilidades</h2>
+            </div>
+            <div class="skills-grid">
+                <div class="skill-card">
+                    <div class="skill-icon">
+                        <i class="ph ph-file-html"></i>
+                    </div>
+                    <h3 class="skill-name">HTML5</h3>
+                    <p class="skill-description"
+                        data-es="Estructura semántica, accesibilidad y mejores prácticas de SEO"
+                        data-en="Semantic structure, accessibility, and SEO best practices">
+                        Estructura semántica, accesibilidad y mejores prácticas de SEO
+                    </p>
+                    <div class="skill-level">
+                        <div class="skill-progress" style="--progress: 95%"></div>
+                    </div>
+                </div>
+
+                <div class="skill-card">
+                    <div class="skill-icon">
+                        <i class="ph ph-file-css"></i>
+                    </div>
+                    <h3 class="skill-name">CSS3</h3>
+                    <p class="skill-description" data-es="Flexbox, Grid, animaciones y diseño responsivo"
+                        data-en="Flexbox, Grid, animations, and responsive design">
+                        Flexbox, Grid, animaciones y diseño responsivo
+                    </p>
+                    <div class="skill-level">
+                        <div class="skill-progress" style="--progress: 90%"></div>
+                    </div>
+                </div>
+
+                <div class="skill-card">
+                    <div class="skill-icon">
+                        <i class="ph ph-file-js"></i>
+                    </div>
+                    <h3 class="skill-name">JavaScript</h3>
+                    <p class="skill-description" data-es="ES6+, DOM manipulation, APIs y programación asíncrona"
+                        data-en="ES6+, DOM manipulation, APIs, and async programming">
+                        ES6+, DOM manipulation, APIs y programación asíncrona
+                    </p>
+                    <div class="skill-level">
+                        <div class="skill-progress" style="--progress: 85%"></div>
+                    </div>
+                </div>
+
+                <div class="skill-card">
+                    <div class="skill-icon">
+                        <i class="ph ph-atom"></i>
+                    </div>
+                    <h3 class="skill-name">React</h3>
+                    <p class="skill-description" data-es="Componentes, Hooks, Context API y gestión de estado"
+                        data-en="Components, Hooks, Context API, and state management">
+                        Componentes, Hooks, Context API y gestión de estado
+                    </p>
+                    <div class="skill-level">
+                        <div class="skill-progress" style="--progress: 80%"></div>
+                    </div>
+                </div>
+
+                <div class="skill-card">
+                    <div class="skill-icon">
+                        <i class="ph ph-globe-simple"></i>
+                    </div>
+                    <h3 class="skill-name">WordPress</h3>
+                    <p class="skill-description" data-es="Temas personalizados, plugins y optimización de rendimiento"
+                        data-en="Custom themes, plugins, and performance optimization">
+                        Temas personalizados, plugins y optimización de rendimiento
+                    </p>
+                    <div class="skill-level">
+                        <div class="skill-progress" style="--progress: 85%"></div>
+                    </div>
+                </div>
+
+                <div class="skill-card">
+                    <div class="skill-icon">
+                        <i class="ph ph-git-branch"></i>
+                    </div>
+                    <h3 class="skill-name">Git</h3>
+                    <p class="skill-description" data-es="Control de versiones, colaboración y flujos de trabajo"
+                        data-en="Version control, collaboration, and workflows">
+                        Control de versiones, colaboración y flujos de trabajo
+                    </p>
+                    <div class="skill-level">
+                        <div class="skill-progress" style="--progress: 80%"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section class="section projects" id="projects">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag" data-es="Mi Trabajo" data-en="My Work">Mi Trabajo</span>
+                <h2 class="section-title" data-es="Proyectos Destacados" data-en="Featured Projects">Proyectos
+                    Destacados</h2>
+            </div>
+            <div class="projects-grid">
+                <!-- Project 1 -->
+                <article class="project-card">
+                    <div class="project-image">
+                        <img src="assets/images/ecommerce.png" alt="E-Commerce Moderno" class="project-img">
+                        <div class="project-overlay">
+                            <div class="project-links">
+                                <a href="#" class="project-link" title="Ver Demo">
+                                    <i class="ph ph-eye"></i>
+                                </a>
+                                <a href="#" class="project-link" title="Ver Código">
+                                    <i class="ph ph-github-logo"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h3 class="project-title" data-es="E-Commerce Moderno" data-en="Modern E-Commerce">E-Commerce
+                            Moderno</h3>
+                        <p class="project-description"
+                            data-es="Tienda en línea con carrito de compras, pasarela de pagos y panel de administración."
+                            data-en="Online store with shopping cart, payment gateway, and admin panel.">
+                            Tienda en línea con carrito de compras, pasarela de pagos y panel de administración.
+                        </p>
+                        <div class="project-tags">
+                            <span class="tag">React</span>
+                            <span class="tag">CSS</span>
+                            <span class="tag">Node.js</span>
+                        </div>
+                    </div>
+                </article>
+
+                <!-- Project 2 -->
+                <article class="project-card">
+                    <div class="project-image">
+                        <img src="assets/images/corporate.png" alt="Sitio Corporativo" class="project-img">
+                        <div class="project-overlay">
+                            <div class="project-links">
+                                <a href="#" class="project-link" title="Ver Demo">
+                                    <i class="ph ph-eye"></i>
+                                </a>
+                                <a href="#" class="project-link" title="Ver Código">
+                                    <i class="ph ph-github-logo"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h3 class="project-title" data-es="Sitio Corporativo" data-en="Corporate Website">Sitio
+                            Corporativo</h3>
+                        <p class="project-description"
+                            data-es="Página web profesional para empresa con blog, formularios y optimización SEO."
+                            data-en="Professional business website with blog, forms, and SEO optimization.">
+                            Página web profesional para empresa con blog, formularios y optimización SEO.
+                        </p>
+                        <div class="project-tags">
+                            <span class="tag">WordPress</span>
+                            <span class="tag">PHP</span>
+                            <span class="tag">CSS</span>
+                        </div>
+                    </div>
+                </article>
+
+                <!-- Project 3 -->
+                <article class="project-card">
+                    <div class="project-image">
+                        <img src="assets/images/dashboard.png" alt="Dashboard Interactivo" class="project-img">
+                        <div class="project-overlay">
+                            <div class="project-links">
+                                <a href="#" class="project-link" title="Ver Demo">
+                                    <i class="ph ph-eye"></i>
+                                </a>
+                                <a href="#" class="project-link" title="Ver Código">
+                                    <i class="ph ph-github-logo"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h3 class="project-title" data-es="Dashboard Interactivo" data-en="Interactive Dashboard">
+                            Dashboard Interactivo</h3>
+                        <p class="project-description"
+                            data-es="Panel de control con gráficos dinámicos, reportes y gestión de usuarios."
+                            data-en="Control panel with dynamic charts, reports, and user management.">
+                            Panel de control con gráficos dinámicos, reportes y gestión de usuarios.
+                        </p>
+                        <div class="project-tags">
+                            <span class="tag">JavaScript</span>
+                            <span class="tag">Chart.js</span>
+                            <span class="tag">HTML</span>
+                        </div>
+                    </div>
+                </article>
+
+                <!-- Project 4 -->
+                <article class="project-card">
+                    <div class="project-image">
+                        <img src="assets/images/restaurant.png" alt="App de Restaurante" class="project-img">
+                        <div class="project-overlay">
+                            <div class="project-links">
+                                <a href="#" class="project-link" title="Ver Demo">
+                                    <i class="ph ph-eye"></i>
+                                </a>
+                                <a href="#" class="project-link" title="Ver Código">
+                                    <i class="ph ph-github-logo"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h3 class="project-title" data-es="App de Restaurante" data-en="Restaurant App">App de
+                            Restaurante</h3>
+                        <p class="project-description"
+                            data-es="Aplicación web para restaurante con menú digital, reservaciones y pedidos en línea."
+                            data-en="Restaurant web app with digital menu, reservations, and online orders.">
+                            Aplicación web para restaurante con menú digital, reservaciones y pedidos en línea.
+                        </p>
+                        <div class="project-tags">
+                            <span class="tag">React</span>
+                            <span class="tag">Firebase</span>
+                            <span class="tag">CSS</span>
+                        </div>
+                    </div>
+                </article>
+            </div>
+            <div class="projects-cta">
+                <a href="#contact" class="btn btn-primary" data-es="¿Tienes un proyecto en mente?"
+                    data-en="Have a project in mind?">
+                    <i class="ph ph-rocket-launch"></i>
+                    ¿Tienes un proyecto en mente?
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="section contact" id="contact">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag" data-es="Trabajemos Juntos" data-en="Let's Work Together">Trabajemos
+                    Juntos</span>
+                <h2 class="section-title" data-es="Contacto" data-en="Contact">Contacto</h2>
+            </div>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <h3 data-es="¡Hablemos de tu proyecto!" data-en="Let's talk about your project!">¡Hablemos de tu
+                        proyecto!</h3>
+                    <p data-es="Estoy disponible para proyectos freelance. Si tienes una idea que quieres hacer realidad, no dudes en contactarme."
+                        data-en="I'm available for freelance projects. If you have an idea you want to bring to life, don't hesitate to contact me.">
+                        Estoy disponible para proyectos freelance. Si tienes una idea que quieres hacer realidad, no
+                        dudes en contactarme.
+                    </p>
+                    <div class="contact-details">
+                        <a href="mailto:mildredrios0@gmail.com" class="contact-item">
+                            <div class="contact-icon">
+                                <i class="ph ph-envelope"></i>
+                            </div>
+                            <div class="contact-text">
+                                <span class="contact-label">Email</span>
+                                <span class="contact-value">mildredrios0@gmail.com</span>
+                            </div>
+                        </a>
+                        <a href="tel:+525616058302" class="contact-item">
+                            <div class="contact-icon">
+                                <i class="ph ph-phone"></i>
+                            </div>
+                            <div class="contact-text">
+                                <span class="contact-label" data-es="Teléfono" data-en="Phone">Teléfono</span>
+                                <span class="contact-value">56 1605 8302</span>
+                            </div>
+                        </a>
+                        <a href="https://wa.me/525616058302" target="_blank" class="contact-item">
+                            <div class="contact-icon">
+                                <i class="ph ph-whatsapp-logo"></i>
+                            </div>
+                            <div class="contact-text">
+                                <span class="contact-label">WhatsApp</span>
+                                <span class="contact-value" data-es="Envíame un mensaje"
+                                    data-en="Send me a message">Envíame un mensaje</span>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                <form class="contact-form" id="contact-form">
+                    <div class="form-group">
+                        <label for="name" data-es="Nombre" data-en="Name">Nombre</label>
+                        <input type="text" id="name" name="name" placeholder="Tu nombre" data-placeholder-es="Tu nombre"
+                            data-placeholder-en="Your name" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="email" data-es="Correo Electrónico" data-en="Email">Correo Electrónico</label>
+                        <input type="email" id="email" name="email" placeholder="tu@email.com" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="subject" data-es="Asunto" data-en="Subject">Asunto</label>
+                        <input type="text" id="subject" name="subject" placeholder="¿En qué puedo ayudarte?"
+                            data-placeholder-es="¿En qué puedo ayudarte?" data-placeholder-en="How can I help you?"
+                            required>
+                    </div>
+                    <div class="form-group">
+                        <label for="message" data-es="Mensaje" data-en="Message">Mensaje</label>
+                        <textarea id="message" name="message" rows="5" placeholder="Cuéntame sobre tu proyecto..."
+                            data-placeholder-es="Cuéntame sobre tu proyecto..."
+                            data-placeholder-en="Tell me about your project..." required></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary btn-full" data-es="Enviar Mensaje"
+                        data-en="Send Message">
+                        <i class="ph ph-paper-plane-tilt"></i>
+                        Enviar Mensaje
+                    </button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-brand">
+                    <span class="logo-text">Mildred Rios</span>
+                    <p data-es="Creando experiencias digitales excepcionales"
+                        data-en="Creating exceptional digital experiences">
+                        Creando experiencias digitales excepcionales
+                    </p>
+                </div>
+                <div class="footer-social">
+                    <a href="https://github.com/" target="_blank" class="social-link" aria-label="GitHub">
+                        <i class="ph ph-github-logo"></i>
+                    </a>
+                    <a href="https://linkedin.com/" target="_blank" class="social-link" aria-label="LinkedIn">
+                        <i class="ph ph-linkedin-logo"></i>
+                    </a>
+                    <a href="https://twitter.com/" target="_blank" class="social-link" aria-label="Twitter">
+                        <i class="ph ph-twitter-logo"></i>
+                    </a>
+                    <a href="mailto:mildredrios0@gmail.com" class="social-link" aria-label="Email">
+                        <i class="ph ph-envelope"></i>
+                    </a>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2026 Mildred Clemente Rios. <span data-es="Todos los derechos reservados."
+                        data-en="All rights reserved.">Todos los derechos reservados.</span></p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="js/script.js"></script>
+</body>
+
+</html>
